@@ -62,3 +62,362 @@
     .gallery .gallery_box:hover .g_details {
         transform: scaleY(1);
     }
+
+
+/*------------------------------ About us page ----------------------*/
+
+.about_page {
+    padding: 60px 0;
+}
+
+.about_info h2 {
+    text-align: center;
+    color: #393185;
+    font-weight: 600;
+    font-size: 34px;
+    position: relative;
+}
+
+    .about_info h2::after {
+        position: absolute;
+        content: "";
+        width: 60%;
+        height: 2px;
+        background: linear-gradient(to left, transparent, #707070, transparent);
+        bottom: -14px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.about_info .about_dtl {
+    margin: 50px 0;
+}
+
+    .about_info .about_dtl .about_dtl_left {
+        font-size: 16px;
+        color: #333;
+        text-align: justify;
+        line-height: 1.8;
+        padding: 0 20px;
+    }
+
+    .about_info .about_dtl .about_dtl_right {
+        padding: 0 20px;
+        font-size: 15px;
+    }
+
+
+
+
+.about_feature h2 {
+    border-top: 1px solid #ddd;
+    text-align: center;
+    height: 8px;
+    margin: 100px 0 50px;
+    line-height: 1.5;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+    .about_feature h2 .Heading_text {
+        background: #fff;
+        padding: 0 8px;
+        position: relative;
+        top: -18px;
+        font-weight: 300;
+        white-space: nowrap;
+    }
+
+.a_feature_box {
+    margin: 10px 0 40px;
+    padding: 10px;
+    display: inline-flex;
+}
+
+    .a_feature_box .feature_img {
+        flex: none;
+    }
+
+        .a_feature_box .feature_img img {
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            border: 1px solid #b9bbbd;
+            transition: all .5s ease;
+        }
+
+        .a_feature_box .feature_img:hover img {
+            transform: skew(5deg, 5deg);
+            transition: all .5s ease;
+        }
+
+    .a_feature_box .feature_desc {
+        padding-left: 24px;
+    }
+
+
+.about_page .counter_main {
+    margin: 50px 0;
+}
+
+
+
+/* Page Header  */
+
+.page_head {
+    height: 44px;
+    position: relative;
+}
+
+    
+
+    .page_head .breadcumb {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        display: inline-flex;
+        background-color: rgba(27, 27, 27, 0.8);
+        margin: 0;
+        padding: 10px 30px;
+    }
+
+        .page_head .breadcumb li {
+            padding-right: 10px;
+            color: #f5f5f5;
+        }
+
+            .page_head .breadcumb li a {
+                color: #f5f5f5;
+                font-weight: 500;
+            }
+
+            .page_head .breadcumb li.active {
+                color: #ADD8E6;
+            }
+
+            .page_head .breadcumb li::marker{
+                content: none;
+            }
+
+/* Privecy section start  */
+
+
+.pdfHeight {
+    height: 600px;
+}
+
+.lh0 tr td {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+    .lh0 tr td p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+.lh1 tr td {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+    .lh1 tr td p {
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+.lh2 tr td {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+    .lh2 tr td p {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+.lh3 tr td {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+    .lh3 tr td p {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+.lh4 tr td {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+    .lh4 tr td p {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+.lh5 tr td {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    .lh5 tr td p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+.lh6 tr td {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+    .lh6 tr td p {
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+.lh7 tr td {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+    .lh7 tr td p {
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+.lh8 tr td {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+    .lh8 tr td p {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+.lh9 tr td {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+    .lh9 tr td p {
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+
+.lh10 tr td {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    .lh10 tr td p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+.lh11 tr td {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+    .lh11 tr td p {
+        margin-top: 11px;
+        margin-bottom: 11px;
+    }
+
+.lh12 tr td {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+    .lh12 tr td p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+.lh13 tr td {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+    .lh13 tr td p {
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+
+.lh14 tr td {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+    .lh14 tr td p {
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+
+.lh15 tr td {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+    .lh15 tr td p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+.table-customized > tbody > tr > th {
+    background: #ececec;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tablez th, .tablez td {
+    padding: 10px;
+}
+
+.tablez th {
+    text-align: center;
+    background-color: #8a7bd1;
+    color: white;
+    border: 1px solid #000000;
+}
+
+.tablez td {
+    color: black;
+    border: 1px solid #000000;
+}
+
+.tablez p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tablez a {
+    color: black;
+}
+
+    .tablez a:hover {
+        color: #8a7bd1;
+    }
+
+.pt50 {
+    padding-top: 50px;
+}
+
+.pb50 {
+    padding-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+    table th, table td {
+        border: 1px solid;
+        padding: 15px 10px;
+    }        
