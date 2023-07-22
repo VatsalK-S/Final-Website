@@ -1,22 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>EduCave</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="mystyle.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="mystyle.css" />
   </head>
   <style>
-    .headings{
+    .headings {
       text-align: center;
-      margin:35px;
+      margin: 35px;
       color: rgb(3, 3, 105);
       font-family: fantasy;
       letter-spacing: 1.2px;
     }
   </style>
-  <body >
+  <body>
     <!-- navbar start -->
     <nav class="navbar navbar-expand-lg" style="background-color: #10066c">
       <div class="container-fluid">
@@ -40,329 +45,578 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              <a
+                class="nav-link"
+                style="color: gold"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Link</a>
+
+            <li>
+              <a class="nav-link text-white" href="aboutus.html">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="event.html">Event Gallery</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
 
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle text-white"
-                href="#"
+                href="aboutus.html"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-              About Us
-              </a>x
-              <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="terms.html">Terms & Conditions</a></li>
-                <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                More
+              </a>
+              <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="refund.html">Refund & Cancellation Policy</a>
+                  <a id="a" class="dropdown-item" href="terms.html"
+                    >Terms & Conditions</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="privacy.html"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="refund.html"
+                    >Refund & Cancellation Policy</a
+                  >
                 </li>
               </ul>
             </li>
-          
-            <!-- <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li> -->
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
-      <!-- navbar end -->
-      <!-- alert start -->
-      <div class="alert alert-warning alert-dismissible fade show my-0" role="alert">
-        <strong>Hey There!</strong>&nbsp;Please checkout our new scholarship details from above link.
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <!-- navbar end -->
+    <!-- alert start -->
+    <div
+      class="alert alert-warning alert-dismissible fade show my-0"
+      role="alert"
+    >
+      <strong>Hey There!</strong>&nbsp;Please checkout our new scholarship
+      details from above link.
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+    <!-- alert end -->
+    <!-- carousel start -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
       </div>
-      <!-- alert end -->
-      <!-- carousel start -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="height: 100%">
+          <img
+            src="images/cr4.jpeg"
+            class="d-block w-100"
+            alt="Can't load"
+            style="height: 400px; width: 1980px"
+          />
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" style="height: 100%;">
-            <img src="images/cr4.jpeg" class="d-block w-100" alt="Can't load" style="height: 400px; width: 1980px;">
-          </div>
-          <div class="carousel-item" style="height: 100%;">
-            <img src="images/jee-adv.jfif" class="d-block w-100" alt="Can't load" style="height: 400px; width: 1980px;">
-          </div>
-          <div class="carousel-item" style="height: 100%;">
-            <img src="images/jee-mains.jfif" class="d-block w-100" alt="Can't load" style="height: 400px; width: 1980px;">
-          </div>
-          <div class="carousel-item" style="height: 100%;">
-            <img src="images/kvpy.jfif" class="d-block w-100" alt="Can't load" style="height: 400px; width: 1980px;">
-          </div>
+        <div class="carousel-item" style="height: 100%">
+          <img
+            src="images/jee-adv.jfif"
+            class="d-block w-100"
+            alt="Can't load"
+            style="height: 400px; width: 1980px"
+          />
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- carousel end -->
-      <!-- course heading  -->
-      <div class="headings"><h1>Available Courses</h1></div>
-      <div><center><img src="images/underline.png" style="margin-top:-110px;width:200px;margin-bottom:-60px;"></center></div>
-      <!-- courses start -->
-      <!-- Engineering course -->
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed bg-info my-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <h6 style="color: white;font-weight:bold;font-size:large;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">EduCave Special Engineering Entrance course<span style="color: yellow;font-size:medium">&nbsp;For Class 9<sup>th</sup> to 12<sup>th</sup> studying & Class 12<sup>th</sup> passed</span></h6>
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <ul style="line-height:23px; font-weight:bold; padding: 0px 15px;">
-                <li style="font-weight: 500;">Two-Year Integrated Classroom Course for JEE - Main &amp; Advanced (For Class 10th Studying Students moving to Class 11th)</li>
-                <li style="font-weight: 500;">One-Year Integrated Classroom Course for JEE Main &amp; Advanced (For Class 11th Studying Students moving to Class 12th)</li>
-                <li style="font-weight: 500;">Power Step&nbsp;Integrated Classroom Course for JEE Main &amp; Advanced (For Class 12th Passed Students)</li>
-                <li style="font-weight: 500;">Integrated Classroom Course for Class X to XII, JEE(Main &amp; Advanced), Olympiads, KVPY &amp; NTSE</li>
-                <li style="font-weight: 500;">Integrated Classroom course for Class IX to XII, JEE(Main &amp; Advanced), Olympiads, KVPY &amp; NTSE</li>
-              </ul>
-              <table class="table table-bordered table-striped" style="line-height: 23px;" width="80%">
-                <tbody>
-                  <tr>
-                    <td><b>Course Highlights</b></td>
-                    <td><b>Additional Benefits </b></td>
-                  </tr>
-                  <tr>
-                    <td>Coverage and revision of Class 11th and Class 12th syllabus</td>
-                    <td>Final Test Series</td>
-                  </tr>
-                  <tr>
-                    <td>Thorough preparation for school/board exams</td>
-                    <td>Success Achiever Question Bank for JEE Main</td>
-                  </tr>
-                  <tr>
-                    <td>Regular tests on school/board as well as JEE pattern</td>
-                    <td>Success Magnet Question Bank for JEE</td>
-                  </tr>
-                  <tr>
-                    <td>Extensive and in-depth study material</td>
-                    <td>Archive for JEE Main and Advanced</td>
-                  </tr>
-                  <tr>
-                    <td>NCERT Maps for quick and thorough revision of NCERT</td>
-                    <td colspan="2">EduTutor Lab Facility</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+        <div class="carousel-item" style="height: 100%">
+          <img
+            src="images/jee-mains.jfif"
+            class="d-block w-100"
+            alt="Can't load"
+            style="height: 400px; width: 1980px"
+          />
         </div>
-        <!-- Medical course -->
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed bg-info my-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <h6 style="color: white;font-weight:bold;font-size:large;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">EduCave Special Medical Entrance course<span style="color: yellow;font-size:medium">&nbsp;For Class 9<sup>th</sup> to 12<sup>th</sup> studying & Class 12<sup>th</sup> passed</span></h6>
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <ul style="line-height:23px; font-weight:bold; padding: 0px 15px;">
-                <li style="font-weight: 500;margin:0px!important;">Two-Year Integrated Classroom Course for NEET (For Class 10th Studying Students moving to Class 11th)</li>
-                <li style=" font-weight: 500;">One-Year Integrated Classroom Course for NEET (For Class 11th Studying Students moving to Class 12th)</li>
-                <li style=" font-weight: 500;">Regular Classroom Course for NEET (For Class 12th Passed Students)</li>
-                <li style=" font-weight: 500;">Integrated Classroom Course for Class X to XII, NEET, Olympiads, KVPY &amp; NTSE</li>
-                <li style=" font-weight: 500;">Integrated Classroom Course for Class IX to XII, NEET, Olympiads, KVPY &amp; NTSE</li>
-              </ul>
-              <table class="table table-bordered table-striped" style="line-height: 23px;" width="80%">
-                <tbody>
-                  <tr>
-                    <td><b>Course Highlights</b></td>
-                    <td><b>Additional Benefits </b></td>
-                  </tr>
-                  <tr>
-                    <td>Coverage and revision of Class 11th and Class 12th syllabus</td>
-                    <td>Test Series Course for NEET preparation</td>
-                  </tr>
-                  <tr>
-                    <td>Thorough preparation for school/board exams</td>
-                    <td>Question Bank for NEET</td>
-                  </tr>
-                  <tr>
-                    <td>Regular tests on school/board as well as NEET pattern</td>
-                    <td>NEET Challenger App</td>
-                  </tr>
-                  <tr>
-                    <td>Extensive and in-depth study material</td>
-                    <td>EduTutor Lab Facility</td>
-                  </tr>
-                  <tr>
-                    <td>NCERT Maps for quick and thorough revision of NCERT</td>
-                    <td>Books for Crash Course &amp; Repeater Course</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-        <!-- Board Course -->
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed bg-info my-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              <h6 style="color: white;font-weight:bold;font-size:large;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">EduCave Special NCERT course<span style="color: yellow;font-size:medium">&nbsp;For Class 11<sup>th</sup> & Class 12<sup>th</sup></span></h6>
-            </button>
-          </h2>
-          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <ul style="line-height:23px; font-weight:bold; padding: 0px 15px;">
-                <li style="font-weight: 500;margin:0px!important;">
-                  One-Year Integrated Classroom Course for NCERT (For Class 10th Studying Students moving to Class 11th)
-                </li>
-                <li style=" font-weight: 500;">
-                  One-Year Integrated Classroom Course for CBSE Boards (For Class 11th Studying Students moving to Class 12th)
-                </li>
-                <li style=" font-weight: 500;">
-                  One-Year Integrated Classroom Course for CBSE Repeaters
-                </li>
-              </ul>
-              <table class="table table-bordered table-striped" style="line-height: 23px;" width="80%">
-                <tbody>
-                  <tr>
-                    <td><b>Course Highlights</b></td>
-                    <td><b>Additional Benefits </b></td>
-                  </tr>
-                  <tr>
-                    <td>Coverage and revision of Class 11th and Class 12th syllabus</td>
-                    <td>Test Series Course for school/board preparation</td>
-                  </tr>
-                  <tr>
-                    <td>Thorough preparation for school/board exams</td>
-                    <td>Practice MCQs modules for school/board exams</td>
-                  </tr>
-                  <tr>
-                    <td>Regular tests on school/board</td>
-                    <td>Question Bank based on NCERT</td>
-                  </tr>
-                  <tr>
-                    <td>Extensive and in-depth study material</td>
-                    <td>Books for Crash Course &amp; Repeater Course</td>
-                  </tr>
-                  <tr>
-                    <td>NCERT Maps for quick and thorough revision of NCERT</td>
-                    <td>EduTutor Lab Facility</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-        <!-- Foundation course -->
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed bg-info my-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              <h6 style="color: white;font-weight:bold;font-size:large;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">EduCave Special Foundation Courses<span style="color: yellow;font-size:medium">&nbsp;For Class 8<sup>th</sup> Class 9<sup>th</sup> & Class 10<sup>th</sup></span></h6>
-            </button>
-          </h2>
-          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <ul style="line-height:23px; font-weight:bold; padding: 0px 15px;">
-                <li style="font-weight: 500;">One-Year Integrated Classroom Course for Olympiads &amp; Class VIII (For Class 7th Studying Students moving to Class 8th)</li>
-                <li style="font-weight: 500;">One-Year Integrated Classroom Course for Olympiads and Class IX (For Class 8th Studying Students moving to Class 9th)</li>
-                <li style="font-weight: 500;">One-Year Integrated Classroom Course for Olympiads, KVPY, NTSE &amp; Class X (For Class 9th Studying Students moving to Class 10th)</li>
-                <li style="font-weight: 500;">Two-Year Integrated Classroom Course for Olympiads, KVPY, NTSE &amp; Class IX &amp; X (For Class 8th Studying Students moving to Class 9th)</li>
-                <li style="font-weight: 500;">Three-Year Integrated Classroom Course for Olympiads, KVPY, NTSE and Class VIII, IX &amp; X (For Class 7th Studying Students moving to Class 8th)</li>
-              </ul>
-              <table class="table table-bordered table-striped" style="line-height: 23px;" width="80%">
-                <tbody>
-                  <tr>
-                    <td><b>Course Highlights</b></td>
-                    <td><b>Additional Benefits </b></td>
-                  </tr>
-                  <tr>
-                    <td>Thorough preparation for school/board exams</td>
-                    <td>Micro Assignment - a special booklet of NCERT (questions for better practice)</td>
-                  </tr>
-                  <tr>
-                    <td>Class VIII, IX, X Syllabus Coverage with Revision &amp; Doubt Clearance</td>
-                    <td>Fast Track &amp; Trickopedia - unique tricks &amp; tips to increase speed</td>
-                  </tr>
-                  <tr>
-                    <td>Special Classes for NTSE preparation for Class X</td>
-                    <td>Special classes &amp; test series for Olympiad/scholarship exams</td>
-                  </tr>
-                  <tr>
-                    <td>Extensive and in-depth study material</td>
-                    <td>Mental ability preparation</td>
-                  </tr>
-                  <tr>
-                    <td>Regular tests on school /board, Olympiad, NTSE pattern</td>
-                    <td colspan="2">EduTutor Lab Facility</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+        <div class="carousel-item" style="height: 100%">
+          <img
+            src="images/kvpy.jfif"
+            class="d-block w-100"
+            alt="Can't load"
+            style="height: 400px; width: 1980px"
+          />
         </div>
       </div>
-      <!-- courses end -->
-      
-
-      <div class="headings"><h1>Competitive Exams</h1></div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel end -->
+    <!-- course heading  -->
+    <div class="headings"><h1>Available Courses</h1></div>
     <div>
       <center>
-        <img src="images/underline.png" style="margin-top:-110px;width:300px;height: 200px;margin-bottom:-60px;">
+        <img
+          src="images/underline.png"
+          style="margin-top: -110px; width: 200px; margin-bottom: -60px"
+        />
+      </center>
+    </div>
+    <!-- courses start -->
+    <!-- Engineering course -->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed bg-info my-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            <h6
+              style="
+                color: white;
+                font-weight: bold;
+                font-size: large;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              "
+            >
+              EduCave Special Engineering Entrance course<span
+                style="color: yellow; font-size: medium"
+                >&nbsp;For Class 9<sup>th</sup> to 12<sup>th</sup> studying &
+                Class 12<sup>th</sup> passed</span
+              >
+            </h6>
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <ul style="line-height: 23px; font-weight: bold; padding: 0px 15px">
+              <li style="font-weight: 500">
+                Two-Year Integrated Classroom Course for JEE - Main &amp;
+                Advanced (For Class 10th Studying Students moving to Class 11th)
+              </li>
+              <li style="font-weight: 500">
+                One-Year Integrated Classroom Course for JEE Main &amp; Advanced
+                (For Class 11th Studying Students moving to Class 12th)
+              </li>
+              <li style="font-weight: 500">
+                Power Step&nbsp;Integrated Classroom Course for JEE Main &amp;
+                Advanced (For Class 12th Passed Students)
+              </li>
+              <li style="font-weight: 500">
+                Integrated Classroom Course for Class X to XII, JEE(Main &amp;
+                Advanced), Olympiads, KVPY &amp; NTSE
+              </li>
+              <li style="font-weight: 500">
+                Integrated Classroom course for Class IX to XII, JEE(Main &amp;
+                Advanced), Olympiads, KVPY &amp; NTSE
+              </li>
+            </ul>
+            <table
+              class="table table-bordered table-striped"
+              style="line-height: 23px"
+              width="80%"
+            >
+              <tbody>
+                <tr>
+                  <td><b>Course Highlights</b></td>
+                  <td><b>Additional Benefits </b></td>
+                </tr>
+                <tr>
+                  <td>
+                    Coverage and revision of Class 11th and Class 12th syllabus
+                  </td>
+                  <td>Final Test Series</td>
+                </tr>
+                <tr>
+                  <td>Thorough preparation for school/board exams</td>
+                  <td>Success Achiever Question Bank for JEE Main</td>
+                </tr>
+                <tr>
+                  <td>Regular tests on school/board as well as JEE pattern</td>
+                  <td>Success Magnet Question Bank for JEE</td>
+                </tr>
+                <tr>
+                  <td>Extensive and in-depth study material</td>
+                  <td>Archive for JEE Main and Advanced</td>
+                </tr>
+                <tr>
+                  <td>NCERT Maps for quick and thorough revision of NCERT</td>
+                  <td colspan="2">EduTutor Lab Facility</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Medical course -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed bg-info my-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            <h6
+              style="
+                color: white;
+                font-weight: bold;
+                font-size: large;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              "
+            >
+              EduCave Special Medical Entrance course<span
+                style="color: yellow; font-size: medium"
+                >&nbsp;For Class 9<sup>th</sup> to 12<sup>th</sup> studying &
+                Class 12<sup>th</sup> passed</span
+              >
+            </h6>
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <ul style="line-height: 23px; font-weight: bold; padding: 0px 15px">
+              <li style="font-weight: 500; margin: 0px !important">
+                Two-Year Integrated Classroom Course for NEET (For Class 10th
+                Studying Students moving to Class 11th)
+              </li>
+              <li style="font-weight: 500">
+                One-Year Integrated Classroom Course for NEET (For Class 11th
+                Studying Students moving to Class 12th)
+              </li>
+              <li style="font-weight: 500">
+                Regular Classroom Course for NEET (For Class 12th Passed
+                Students)
+              </li>
+              <li style="font-weight: 500">
+                Integrated Classroom Course for Class X to XII, NEET, Olympiads,
+                KVPY &amp; NTSE
+              </li>
+              <li style="font-weight: 500">
+                Integrated Classroom Course for Class IX to XII, NEET,
+                Olympiads, KVPY &amp; NTSE
+              </li>
+            </ul>
+            <table
+              class="table table-bordered table-striped"
+              style="line-height: 23px"
+              width="80%"
+            >
+              <tbody>
+                <tr>
+                  <td><b>Course Highlights</b></td>
+                  <td><b>Additional Benefits </b></td>
+                </tr>
+                <tr>
+                  <td>
+                    Coverage and revision of Class 11th and Class 12th syllabus
+                  </td>
+                  <td>Test Series Course for NEET preparation</td>
+                </tr>
+                <tr>
+                  <td>Thorough preparation for school/board exams</td>
+                  <td>Question Bank for NEET</td>
+                </tr>
+                <tr>
+                  <td>Regular tests on school/board as well as NEET pattern</td>
+                  <td>NEET Challenger App</td>
+                </tr>
+                <tr>
+                  <td>Extensive and in-depth study material</td>
+                  <td>EduTutor Lab Facility</td>
+                </tr>
+                <tr>
+                  <td>NCERT Maps for quick and thorough revision of NCERT</td>
+                  <td>Books for Crash Course &amp; Repeater Course</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Board Course -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed bg-info my-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseFour"
+            aria-expanded="false"
+            aria-controls="collapseFour"
+          >
+            <h6
+              style="
+                color: white;
+                font-weight: bold;
+                font-size: large;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              "
+            >
+              EduCave Special NCERT course<span
+                style="color: yellow; font-size: medium"
+                >&nbsp;For Class 11<sup>th</sup> & Class 12<sup>th</sup></span
+              >
+            </h6>
+          </button>
+        </h2>
+        <div
+          id="collapseFour"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <ul style="line-height: 23px; font-weight: bold; padding: 0px 15px">
+              <li style="font-weight: 500; margin: 0px !important">
+                One-Year Integrated Classroom Course for NCERT (For Class 10th
+                Studying Students moving to Class 11th)
+              </li>
+              <li style="font-weight: 500">
+                One-Year Integrated Classroom Course for CBSE Boards (For Class
+                11th Studying Students moving to Class 12th)
+              </li>
+              <li style="font-weight: 500">
+                One-Year Integrated Classroom Course for CBSE Repeaters
+              </li>
+            </ul>
+            <table
+              class="table table-bordered table-striped"
+              style="line-height: 23px"
+              width="80%"
+            >
+              <tbody>
+                <tr>
+                  <td><b>Course Highlights</b></td>
+                  <td><b>Additional Benefits </b></td>
+                </tr>
+                <tr>
+                  <td>
+                    Coverage and revision of Class 11th and Class 12th syllabus
+                  </td>
+                  <td>Test Series Course for school/board preparation</td>
+                </tr>
+                <tr>
+                  <td>Thorough preparation for school/board exams</td>
+                  <td>Practice MCQs modules for school/board exams</td>
+                </tr>
+                <tr>
+                  <td>Regular tests on school/board</td>
+                  <td>Question Bank based on NCERT</td>
+                </tr>
+                <tr>
+                  <td>Extensive and in-depth study material</td>
+                  <td>Books for Crash Course &amp; Repeater Course</td>
+                </tr>
+                <tr>
+                  <td>NCERT Maps for quick and thorough revision of NCERT</td>
+                  <td>EduTutor Lab Facility</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Foundation course -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed bg-info my-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseFive"
+            aria-expanded="false"
+            aria-controls="collapseFive"
+          >
+            <h6
+              style="
+                color: white;
+                font-weight: bold;
+                font-size: large;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              "
+            >
+              EduCave Special Foundation Courses<span
+                style="color: yellow; font-size: medium"
+                >&nbsp;For Class 8<sup>th</sup> Class 9<sup>th</sup> & Class
+                10<sup>th</sup></span
+              >
+            </h6>
+          </button>
+        </h2>
+        <div
+          id="collapseFive"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <ul style="line-height: 23px; font-weight: bold; padding: 0px 15px">
+              <li style="font-weight: 500">
+                One-Year Integrated Classroom Course for Olympiads &amp; Class
+                VIII (For Class 7th Studying Students moving to Class 8th)
+              </li>
+              <li style="font-weight: 500">
+                One-Year Integrated Classroom Course for Olympiads and Class IX
+                (For Class 8th Studying Students moving to Class 9th)
+              </li>
+              <li style="font-weight: 500">
+                One-Year Integrated Classroom Course for Olympiads, KVPY, NTSE
+                &amp; Class X (For Class 9th Studying Students moving to Class
+                10th)
+              </li>
+              <li style="font-weight: 500">
+                Two-Year Integrated Classroom Course for Olympiads, KVPY, NTSE
+                &amp; Class IX &amp; X (For Class 8th Studying Students moving
+                to Class 9th)
+              </li>
+              <li style="font-weight: 500">
+                Three-Year Integrated Classroom Course for Olympiads, KVPY, NTSE
+                and Class VIII, IX &amp; X (For Class 7th Studying Students
+                moving to Class 8th)
+              </li>
+            </ul>
+            <table
+              class="table table-bordered table-striped"
+              style="line-height: 23px"
+              width="80%"
+            >
+              <tbody>
+                <tr>
+                  <td><b>Course Highlights</b></td>
+                  <td><b>Additional Benefits </b></td>
+                </tr>
+                <tr>
+                  <td>Thorough preparation for school/board exams</td>
+                  <td>
+                    Micro Assignment - a special booklet of NCERT (questions for
+                    better practice)
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Class VIII, IX, X Syllabus Coverage with Revision &amp;
+                    Doubt Clearance
+                  </td>
+                  <td>
+                    Fast Track &amp; Trickopedia - unique tricks &amp; tips to
+                    increase speed
+                  </td>
+                </tr>
+                <tr>
+                  <td>Special Classes for NTSE preparation for Class X</td>
+                  <td>
+                    Special classes &amp; test series for Olympiad/scholarship
+                    exams
+                  </td>
+                </tr>
+                <tr>
+                  <td>Extensive and in-depth study material</td>
+                  <td>Mental ability preparation</td>
+                </tr>
+                <tr>
+                  <td>
+                    Regular tests on school /board, Olympiad, NTSE pattern
+                  </td>
+                  <td colspan="2">EduTutor Lab Facility</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- courses end -->
+
+    <div class="headings"><h1>Competitive Exams</h1></div>
+    <div>
+      <center>
+        <img
+          src="images/underline.png"
+          style="
+            margin-top: -110px;
+            width: 300px;
+            height: 200px;
+            margin-bottom: -60px;
+          "
+        />
       </center>
     </div>
 
     <!-- Exams start -->
 
-    <!-- Jee Advanced --><br><br>
-    <div style="display: flex; flex-direction: row; width: 100%; box-shadow: 0px 9px 15px lightblue;" class="bg-primary-subtle">
-      <div class="img-thumbnail" >
+    <!-- Jee Advanced --><br /><br />
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        box-shadow: 0px 9px 15px lightblue;
+      "
+      class="bg-primary-subtle"
+    >
+      <div class="img-thumbnail">
         <img src="images/jee-adv.jfif" style="height: 100%; width: 100%" />
       </div>
 
-      <div style="width: 100%;">
+      <div style="width: 100%">
         <dl style="margin-left: 2%">
           <dt>Jee Advanced</dt>
           <dd>
@@ -386,8 +640,16 @@
     <br />
 
     <!--Jee Mains -->
-    <div style="display: flex; flex-direction: row; width: 100%; box-shadow: 0px 9px 15px lightblue;" class="bg-primary-subtle">
-      <div style="width: 100%;">
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        box-shadow: 0px 9px 15px lightblue;
+      "
+      class="bg-primary-subtle"
+    >
+      <div style="width: 100%">
         <dl style="margin-left: 2%">
           <dt>Jee Mains</dt>
           <dd>
@@ -408,19 +670,27 @@
         </dl>
       </div>
 
-      <div class="img-thumbnail" >
+      <div class="img-thumbnail">
         <img src="images/jee-mains.jfif" style="height: 100%; width: 100%" />
       </div>
     </div>
     <br />
 
     <!-- NEET -->
-    <div style="display: flex; flex-direction: row; width: 100%; box-shadow: 0px 9px 15px lightblue;" class="bg-primary-subtle">
-      <div class="img-thumbnail" >
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        box-shadow: 0px 9px 15px lightblue;
+      "
+      class="bg-primary-subtle"
+    >
+      <div class="img-thumbnail">
         <img src="images/neet.jfif" style="height: 100%; width: 100%" />
       </div>
 
-      <div style="width: 100%;">
+      <div style="width: 100%">
         <dl style="margin-left: 2%">
           <dt>NEET</dt>
           <dd>
@@ -442,8 +712,16 @@
     <br />
 
     <!-- NTSE -->
-    <div style="display: flex; flex-direction: row; width: 100%; box-shadow: 0px 9px 15px lightblue;" class="bg-primary-subtle">
-      <div style="width: 100%;">
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        box-shadow: 0px 9px 15px lightblue;
+      "
+      class="bg-primary-subtle"
+    >
+      <div style="width: 100%">
         <dl style="margin-left: 2%">
           <dt>NTSE</dt>
           <dd>
@@ -463,19 +741,27 @@
         </dl>
       </div>
 
-      <div class="img-thumbnail" >
+      <div class="img-thumbnail">
         <img src="images/ntse.jfif" style="height: 100%; width: 100%" />
       </div>
     </div>
     <br />
 
     <!-- KVPY -->
-    <div style="display: flex; flex-direction: row; width: 100%; box-shadow: 0px 9px 15px lightblue;" class="bg-primary-subtle">
-      <div class="img-thumbnail" >
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        box-shadow: 0px 9px 15px lightblue;
+      "
+      class="bg-primary-subtle"
+    >
+      <div class="img-thumbnail">
         <img src="images/kvpy.jfif" style="height: 100%; width: 100%" />
       </div>
 
-      <div style="width: 100%;">
+      <div style="width: 100%">
         <dl style="margin-left: 2%">
           <dt>KVPY</dt>
           <dd>
@@ -498,9 +784,10 @@
     </div>
     <br />
     <!-- Exams end -->
-
-
-
   </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
 </html>
