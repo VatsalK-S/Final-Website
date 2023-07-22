@@ -1,65 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="mystyle.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EduCave</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-</head>
-<body>
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
+  <style>
+    .headings{
+      text-align: center;
+      margin:35px;
+      color: rgb(3, 3, 105);
+      font-family: fantasy;
+      letter-spacing: 1.2px;
+    }
+  </style>
+  <body >
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #10066c">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="images/logo.png"
+            alt="Can't load"
+            style="height: 100px; width: 250px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="event.html">Event Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
 
-<!-- navbar start -->
-<nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="logo.png" alt="Can't load" style="height:100px;width:120px;"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
               About Us
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
-              <li><a class="dropdown-item" href="#">Terms & Conditions</a></li>
-              <li><a class="dropdown-item" href="#">Refund & Cancellation Policy</a></li>
-            </ul>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li> -->
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+              </a>x
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="terms.html">Terms & Conditions</a></li>
+                <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                <li>
+                  <a class="dropdown-item" href="refund.html">Refund & Cancellation Policy</a>
+                </li>
+              </ul>
+            </li>
+          
+            <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- navbar end -->
+    </nav>
+      <!-- navbar end -->
 
   <!-- page header -->
   <div class="page_head">
@@ -79,26 +127,21 @@
                     <div class="col-md-6">
                         <div class="about_dtl_left">
                             <p>
-                                We are fastest growing group of educational institute in Surat district, The latest Infrastructure of the EduCave campus is noteworthy.
-                                We have a well developed and well planned way of communication with the students and parents. We provide useful life giving co-curricular 
-                                activities for the overall development of a child. The group of the best faculties have systemicstudy plans for result oriented education.
+                                Practice, persistence and performance when inculcated in the meticulous guidance of master minds are sure to produce the output of excellence in terms of career and development of holistic personality - this is the objective of the brand called EduCave. The institute is having a presence in the 75 centers spread across almost all the States and Union Territories of India, offering programs for JEE (Main+Advanced) / NEET (UG) / Other competitive exams.
+                            </p>
+                            <p>
+                                An EduCave education provides students distinct advantages as they enter a world
+                                where asking the right questions is as important as discovering answers.
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="about_dtl_right">
                             <p>
-                                The EduCave offers for high quality, challenging
-                                educational programmes to students aged 3 to 19.
+                                Every year, EduCave'S produces top rankers elevating its status as the best coaching centre for JEE. We provide the students much-needed push to gain an edge in their jee coaching. No wonder, EduCave'S has emerged as the best IIT JEE coaching centre and continues to stay a trusted name in IIT JEE coaching domain. For students and parents looking for the best IIT coaching centre, getting in touch with EduCave'S will answer all their questions. We offer various scholarships to enable students to get admission in JEE coaching courses at EduCave'S - the best institute for jee coaching.
                             </p>
                             <p>
-                                The EduCave programmes focus on fostering critical thinking and building
-                                problem-solving skills, while encouraging diversity, international mindedness,
-                                curiosity, and a healthy appetite for learning and excellence.
-                            </p>
-                            <p>
-                                An EduCave education provides students distinct advantages as they enter a world
-                                where asking the right questions is as important as discovering answers.
+                                For more than three decades, EduCave'S has been the top choice when it comes to a NEET coaching centre. Of all the neet coaching centres in India, EduCave'S has consistently held the title of the best NEET coaching centre. With branches all across the country and online courses, EduCave'S NEET coaching centres are now within the reach of NEET aspirants in every part of India. With multiple course options, EduCave'S provides test preparation tailored to every student's needs. From scholarships for NEET coaching fees to expert faculty, EduCave'S aims to help students at every step of their NEET journey.
                             </p>
                         </div>
                     </div>

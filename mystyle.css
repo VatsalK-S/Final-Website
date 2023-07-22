@@ -27,7 +27,7 @@
         position: absolute;
         width: 100%;
         top: 0;
-        background: #393185;
+        background: rgb(3, 3, 105);
         transition: all 0.7s;
         z-index: 5;
     }
