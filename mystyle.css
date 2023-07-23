@@ -213,3 +213,19 @@
 .pb50 {
     padding-bottom: 50px;
 }
+
+.nav-link {
+    background: linear-gradient(currentColor 0 0) 
+      bottom center/
+      var(--underline-width, 0%) 0.1em
+      no-repeat;
+    color: #f80;
+    display: inline-block;
+    padding: 0 .5em 0.2em;
+    text-decoration: none;
+    transition: background-size 0.5s;
+  }
+  
+  .nav-link:hover {
+    --underline-width: 100%;
+  }
