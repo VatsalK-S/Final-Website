@@ -168,6 +168,7 @@
 .page_head {
     height: 44px;
     position: relative;
+    border-bottom: 2px outset black;
 }
 
     
@@ -178,7 +179,7 @@
         bottom: 0;
         left: 0;
         display: inline-flex;
-        background-color: rgba(121, 194, 246, 0.8);
+        background-color: rgba(121, 194, 246, 0.5);
         margin: 0;
         padding: 10px 30px;
     }
@@ -213,3 +214,20 @@
 .pb50 {
     padding-bottom: 50px;
 }
+
+.nav-link {
+    background: linear-gradient(currentColor 0 0) 
+      bottom center/
+      var(--underline-width, 0%) 0.1em
+      no-repeat;
+    color: #f80;
+    display: inline-block;
+    padding: 0 .5em 0.2em;
+    text-decoration: none;
+    transition: background-size 0.5s;
+  }
+  
+  .nav-link:hover {
+    --underline-width: 100%;
+  }
+  
