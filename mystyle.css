@@ -1,3 +1,24 @@
+.headings {
+  text-align: center;
+  color: #393185;
+  font-weight: 600;
+  font-size: 34px;
+  position: relative;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.headings::after {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 2px;
+  background: linear-gradient(to left, transparent, #707070, transparent);
+  bottom: -14px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Gallry Allbum */
 .Gallery_main {
   padding: 40px 0;
